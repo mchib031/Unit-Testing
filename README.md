@@ -50,3 +50,11 @@ javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-con
 Pour run les tests:
 
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
+
+![image](https://user-images.githubusercontent.com/54963309/119539810-a5b8f380-bd5a-11eb-80c4-87ddb04ebf27.png)
+
+![image](https://user-images.githubusercontent.com/54963309/119539870-b9645a00-bd5a-11eb-9f4b-75b35d04b7dd.png)
+
+![image](https://user-images.githubusercontent.com/54963309/119539932-cbde9380-bd5a-11eb-876f-1c99466b6d37.png)
+
+
