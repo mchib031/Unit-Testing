@@ -10,6 +10,8 @@ Lab 2
 
 
 Question 1
+
+
 1- utiliser la commande de ./bin/run dans le fichier de registration pour se connecter avec le localhost:8080.
 ![image](https://user-images.githubusercontent.com/54963309/119538813-7b1a6b00-bd59-11eb-9fdd-a3b5e8bd9fc1.png)
 
