@@ -11,6 +11,7 @@ Lab 2
 
 Question 1
 
+
 | Cas de Test  | Résultats Escomptés |Résultats actuels | Verdict|
 | ------------- | ------------- |------------- |------------- |
 | 1  | demande d'inscription acceptée  |Congratulations !. You are now a member of our site..  |Pass  |
@@ -25,12 +26,15 @@ Question 1
 
 Question 2:
 
-To compile the application, run the following command.
+Pour compilation du programme:
 
 javac -encoding UTF-8 --source-path src -d dist src/*.java
-To compile the tests, run the following command.
+
+Pour compilation des tests:
 
 javac -encoding UTF-8 --source-path test -d dist -cp dist:lib/junit-platform-console-standalone-1.7.1.jar test/*.java
-Finally, run the tests as follows:
+
+
+Pour run les tests:
 
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
