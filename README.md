@@ -11,6 +11,8 @@ Lab 2
 
 Question 1
 1- utiliser la commande de ./bin/run dans le fichier de registration pour se connecter avec le localhost:8080.
+![image](https://user-images.githubusercontent.com/54963309/119538813-7b1a6b00-bd59-11eb-9fdd-a3b5e8bd9fc1.png)
+
 2- Faire les huit tests et noter les reésultats
 ![image](https://user-images.githubusercontent.com/54963309/119538116-c5e7b300-bd58-11eb-9389-9889bc7c5121.png)
 ![image](https://user-images.githubusercontent.com/54963309/119538192-dbf57380-bd58-11eb-95fd-f8b4a50d909c.png)
