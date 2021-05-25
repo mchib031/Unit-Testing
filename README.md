@@ -1,3 +1,14 @@
+Lab 2
+
+| Outline | Value |
+| ------------- | ------------- |
+| Course  | SEG 3503  |
+| Date  | Summer 2021 |
+| Professor  | Andrew Forward, aforward@uottawa.ca  |
+| Team  | Mahdi Chiboub #300094626 & Mary Mousa #300110697  |
+
+
+
 Question 1
 
 | Cas de Test  | Résultats Escomptés |Résultats actuels | Verdict|
