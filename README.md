@@ -10,6 +10,8 @@ Lab 2
 
 
 Question 1
+![image](https://user-images.githubusercontent.com/54963309/119537714-54a80000-bd58-11eb-8f8b-a3e9c8ce564f.png)
+
 
 
 | Cas de Test  | Résultats Escomptés |Résultats actuels | Verdict|
