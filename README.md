@@ -28,11 +28,11 @@ Question 1
 | ------------- | ------------- |------------- |------------- |
 | 1  | demande d'inscription acceptée  |Congratulations !. You are now a member of our site..  |Pass  |
 | 2  | demande d'inscription acceptée  |Wrong Email format  |Fail  |
-| 3  |demande d'inscription acceptée  |Wrong FirstName format & Wrong LastName format  |Pass |
+| 3  |demande d'inscription acceptée  |Congratulations A Bob The Great!. You are now a member of our site.. |Pass |
 | 4  |demande d'inscription acceptée |Congratulations Bond James!. You are now a member of our site.. |Pass |
 | 5  |Err1: Wrong UserName format |Size of UserName must be between 6 and 12, Wrong UserName format  |Pass|
 | 6  | Err1: Wrong UserName format |Wrong UserName format, Size of UserName must be between 6 and 12, Wrong Email format   |Pass  |
-| 7  | Err1: Wrong UserName format  |Size of UserName must be between 6 and 12, Wrong FirstName format, Wrong LastName format  |Pass  |
+| 7  | Err1: Wrong UserName format  |Size of UserName must be between 6 and 12, Wrong FirstName format, Wrong LastName format  |Fail  |
 | 8  | Err1: Wrong UserName format  |Wrong UserName format |Pass  |
 
 
