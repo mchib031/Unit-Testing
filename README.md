@@ -1,3 +1,6 @@
+***** veuillez prendre note que le lab 1 a été fait individuel sur le repo individuel de chacun des membres alors c'est pour cette raison qu'on a créé un nouveau repo pour le groupe.
+
+
 Lab 2
 
 | Outline | Value |
