@@ -11,15 +11,55 @@ import org.junit.runners.Parameterized.Parameters;
 @RunWith(Parameterized.class)
 public class DateNextDateOkTest
 {
+	/**
+	 * date value for using year month and day variables
+	 */
 	private Date date;
+	/**
+	 * expected date value for non exception 15 dates
+	 */
 	private Date expectedResult;
-
-	public DateNextDateOkTest(int year, int month, int day, int expYear, int expMonth, int expDay)
+	/**
+	 * Constructor for a parameterized test case.
+	 * </p>
+	 * <p>
+	 * The constructor stores the parameters in instance variables for use by
+	 * whichever test method is being run. Because we don't know exactly which
+	 * method will be run (in general), the parameters have to be set up for all
+	 * possible test methods for the set of values.
+	 *
+	 * @param year
+	 *            Year value
+	 * @param month
+	 *            Month value
+	 * @param day
+	 *            Day value
+	 * @param expectedYear
+	 *            Expected year value for the result
+	 * @param expectedMonth
+	 *            Expected month value for the result
+	 * @param expectedDay
+	 *            Expected day value for the result
+	 */
+	public DateNextDateOkTest(int year, int month, int day, int expectedYear, int expectedMonth, int expectedDay)
 	{
 		this.date = new Date(year,month,day);
-		this.expectedResult = new Date(expYear,expMonth,expDay);
+		this.expectedResult = new Date(expectedYear,expectedMonth,expectedDay);
 	}
-
+	/**
+	 * Set up parameters for the test cases.
+	 * <p>
+	 * The parameters are for nextDate. Set up 15 possible
+	 * combinations of the date, and the expected date result.
+	 * Therefore, there should be 6 parameters for each
+	 * case:
+	 * </p>
+	 * <ol>
+	 * <li>Year, month and day values</li>
+	 * <li>The expected year month and day values for nextDate</li>
+	 * </ol>
+	 * @return A list of integer arrays containing 15 combinations for each test run.
+	 */
 	@Parameters
 	public static List<Integer[]> data()
 	{
