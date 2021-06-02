@@ -50,7 +50,7 @@ public class Date {
 		if (isThirtyDayMonth() && day > 30) {
 			throw new IllegalArgumentException("day must less than 30 for month " + monthNames[month-1]);
 		}
-		if (this.month == 2 && isLeapYear() && day > 29 || !isLeapYear() && day > 28) {
+		if (this.month == 2 && isLeapYear() && day > 29 || this.month == 2 && !isLeapYear() && day > 28) {
 			throw new IllegalArgumentException("jour doit etre moins que 28 ou 29 par mois " + monthNames[month-1] + " on a leap year.");
 		}
 		this.day = day;

@@ -126,7 +126,7 @@ class DateTest {
    @Test
   void nextDate_2012() { // leap year, on choisit un en fevrier ou il y a 29 jours
     Date today = new Date(2012, 2, 28);
-    Date expectedTomorrow = new Date(2012, 9, 29);
+    Date expectedTomorrow = new Date(2012, 2, 29);
     assertEquals(expectedTomorrow, today.nextDate());
   }
 
@@ -233,5 +233,12 @@ void nextDate_String(){ // tester la conversion en string de la date
     Date date = new Date(2019,4,3);
     assertEquals("2019/April/3",date.toString());
 }
+    @Test
+void nextDate_setmonth(){
+    Date date = new Date(2021,0,20);
+    Date date2 = new Date(2021,0,21);
+    assertFalse(date.equals(date2));
+}
+
 
 }
