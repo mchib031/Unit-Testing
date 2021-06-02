@@ -45,6 +45,5 @@ Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisan
 
 ![image](https://user-images.githubusercontent.com/54963309/120502548-850f2000-c390-11eb-9005-61e8927fa3fc.png)
  
-Pour la réfactoration du code, on a modifié la méthode isThirtyDayMonth(), en reduisant les exemptions, soit en jumellant tous les mois contenant 30 jours ensemble dans un Array au lieu d'avoir pluseiurs lignes de codes.
 
-![image](https://user-images.githubusercontent.com/54963309/120505777-4b8be400-c393-11eb-9402-9e2433d8d586.png)
+
