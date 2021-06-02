@@ -32,12 +32,12 @@ Après des ajouts dans les tests, soit:
 6- On verifie avec des mauvaises entrées setDay() que la réponse est fausse si on entre un jour plus que 30, plus que 29 en février et plus que 30 pour les mois moins que 31.
 
 7- EndOfMonth(), on a ajouté des tests, mais pas full covergae puisque en février il n'y a pas plus que 28 jours dans les années non leap alors il fallait que ca soit le premier mars mais ce test n'a pas passé, ce qui cause que il y a missed branch dans les résultats finaux.
-![image](https://user-images.githubusercontent.com/54963309/120503522-5fcee180-c391-11eb-950a-450f76486211.png)
-
-![image](https://user-images.githubusercontent.com/54963309/120503639-79702900-c391-11eb-9c13-1ec872966383.png| width=100)
 
 
-![image](https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png| width=100)
+<img src="https://user-images.githubusercontent.com/54963309/120503522-5fcee180-c391-11eb-950a-450f76486211.png"  width="700" height="600">
+<img src="https://user-images.githubusercontent.com/54963309/120503639-79702900-c391-11eb-9c13-1ec872966383.png"  width="700" height="600">
+<img src="https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png"  width="700" height="600">
+
 
 **Exercice 2**
 
@@ -45,3 +45,6 @@ Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisan
 
 ![image](https://user-images.githubusercontent.com/54963309/120502548-850f2000-c390-11eb-9005-61e8927fa3fc.png)
  
+Pour la réfactoration du code, on a modifié la méthode isThirtyDayMonth(), en reduisant les exemptions, soit en jumellant tous les mois contenant 30 jours ensemble dans un Array au lieu d'avoir pluseiurs lignes de codes.
+
+![image](https://user-images.githubusercontent.com/54963309/120505777-4b8be400-c393-11eb-9402-9e2433d8d586.png)
