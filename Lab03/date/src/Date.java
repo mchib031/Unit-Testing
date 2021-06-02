@@ -43,20 +43,15 @@ public class Date {
 	 *   - less or equal to 30 for February if year is non-leap
 	 */
 	private void setDay(int day) {
-		if (day < 1) {
-			throw new IllegalArgumentException("day must greater or equal to 1.");
+		if (day < 1 || day > 31) {
+			throw new IllegalArgumentException("jour doit etre entre 1 et 31.");
 		}
-		if (day > 31){
-			throw new IllegalArgumentException("day must less or equal to 31.");
-		}
+	
 		if (isThirtyDayMonth() && day > 30) {
 			throw new IllegalArgumentException("day must less than 30 for month " + monthNames[month-1]);
 		}
-		if (this.month == 2 && isLeapYear() && day > 29) {
-			throw new IllegalArgumentException("day must less than 29 for month " + monthNames[month-1] + " on a leap year.");
-		}
-		if (this.month == 2 && !isLeapYear() && day > 28) {
-			throw new IllegalArgumentException("day must less than 28 for month " + monthNames[month-1] + " on a non leap year.");
+		if (this.month == 2 && isLeapYear() && day > 29 || !isLeapYear() && day > 28) {
+			throw new IllegalArgumentException("jour doit etre moins que 28 ou 29 par mois " + monthNames[month-1] + " on a leap year.");
 		}
 		this.day = day;
 	}
