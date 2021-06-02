@@ -34,10 +34,10 @@ Après des ajouts dans les tests, soit:
 7- EndOfMonth(), on a ajouté des tests, mais pas full covergae puisque en février il n'y a pas plus que 28 jours dans les années non leap alors il fallait que ca soit le premier mars mais ce test n'a pas passé, ce qui cause que il y a missed branch dans les résultats finaux.
 ![image](https://user-images.githubusercontent.com/54963309/120503522-5fcee180-c391-11eb-950a-450f76486211.png)
 
-![image](https://user-images.githubusercontent.com/54963309/120503639-79702900-c391-11eb-9c13-1ec872966383.png)
+![image](https://user-images.githubusercontent.com/54963309/120503639-79702900-c391-11eb-9c13-1ec872966383.png| width=100)
 
 
-![image](https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png)
+![image](https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png| width=100)
 
 **Exercice 2**
 
