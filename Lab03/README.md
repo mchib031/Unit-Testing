@@ -43,7 +43,7 @@ Après des ajouts dans les tests, soit:
 
 Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisant les exemptions, soit en jumellant deux exceptions enesmeble. Puisque on ne peut pas avoir un mois moins que 1 jour et plus que 31 jours. De la même manière, on a jumelé les leap year ensemble soit on ne peut pas avoir plus que 28 ou 29 jours pour le mois de fevrier.
 
-![image](https://user-images.githubusercontent.com/54963309/120502548-850f2000-c390-11eb-9005-61e8927fa3fc.png)
+![image](https://user-images.githubusercontent.com/54963309/120523669-2b185580-c3a4-11eb-98c9-5e3d84ef8f57.png)
  
 Après la réfraction du code et l'ajout des tests, on obtient un très meilleur pourcentage, soit on est allé de 70 coverage jusqua 98 coverage.
 ![image](https://user-images.githubusercontent.com/54963309/120520725-23f04800-c3a2-11eb-9755-056ec40f9b76.png)
