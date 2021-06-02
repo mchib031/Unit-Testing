@@ -35,7 +35,7 @@ Après des ajouts dans les tests, soit:
 
 ![image](https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png)
 
-** Exercice 2**
+**Exercice 2**
 
 Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisant les exemptions, soit en jumellant deux exceptions enesmeble. Puisque on ne peut pas avoir un mois moins que 1 jour et plus que 31 jours. De la même manière, on a jumelé les leap year ensemble soit on ne peut pas avoir plus que 28 ou 29 jours pour le mois de fevrier.
 
