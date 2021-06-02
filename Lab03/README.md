@@ -1,4 +1,4 @@
-Lab 3
+#Lab 3
 
 | Outline | Value |
 | ------------- | ------------- |
@@ -10,7 +10,7 @@ Lab 3
 
 
 
-Question 1
+**Exercice 1
 
 Pour executer jacoco, on a fait la commande: ./bin/run
 Avant d'ajouter des tests, c'était ceci les résultats de départs.
@@ -34,3 +34,10 @@ Après des ajouts dans les tests, soit:
 7- EndofMonth(), on a ajouté des tests, mais pas full covergae puisque en février il n'y a pas plus que 28 jours dans les années non leap alors il fallait que ca soit le premier mars mais ce test n'a pas passé, ce qui cause que il y a missed branch dans les résultats finaux.
 
 ![image](https://user-images.githubusercontent.com/54963309/120419729-fe772600-c330-11eb-8269-e90a9082dae3.png)
+
+**Exercice 2:
+
+Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisant les exemptions, soit en jumellant deux exceptions enesmeble. Puisque on ne peut pas avoir un mois moins que 1 jour et plus que 31 jours. De la même manière, on a jumelé les leap year ensemble soit on ne peut pas avoir plus que 28 ou 29 jours pour le mois de fevrier.
+
+![image](https://user-images.githubusercontent.com/54963309/120502548-850f2000-c390-11eb-9005-61e8927fa3fc.png)
+ 
