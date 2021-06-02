@@ -45,7 +45,7 @@ Pour la réfactoration du code, on a modifié la méthode setDate(), en reduisan
 
 ![image](https://user-images.githubusercontent.com/54963309/120523669-2b185580-c3a4-11eb-98c9-5e3d84ef8f57.png)
  
-Après la réfraction du code et l'ajout des tests, on obtient un très meilleur pourcentage, soit on est allé de 70 coverage jusqua 98 coverage.
+Après la réfraction du code et l'ajout des tests, on obtient un très meilleur pourcentage, soit on est allé de 79 coverage jusqua 98 coverage.
 ![image](https://user-images.githubusercontent.com/54963309/120520725-23f04800-c3a2-11eb-9755-056ec40f9b76.png)
 
 
