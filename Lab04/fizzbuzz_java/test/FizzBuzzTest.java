@@ -33,7 +33,7 @@ public  class FizzBuzzTest {
 
 	@Test
 	public void test_5failed(){
-		String expected= "10";
+		String expected= "Buzz";
 		String actual= fizzBuzz(10);
 	assertEquals(expected,actual);
 	}
