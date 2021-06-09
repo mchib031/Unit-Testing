@@ -24,7 +24,7 @@ public  class FizzBuzzTest {
 
 	@Test
 	public void test_3failed(){
-		String actual= "1";
+		String actual= "2";
 		String expected= fizzBuzz(2);
 	assertEquals(actual,expected );
 	}
