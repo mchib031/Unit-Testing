@@ -14,9 +14,9 @@ public  class FizzBuzzTest {
 		return String.valueOf(num);
 	}
 	@Test
-	public void test_1failed(){
+	public void test_1passed(){
 		String actual= fizzBuzz(0);
-		String expected= "0";
+		String expected= "FizzBuzz";
 	assertEquals(expected, actual);
 	}
   
