@@ -16,6 +16,6 @@ Pour run les tests:
 java -jar lib/junit-platform-console-standalone-1.7.1.jar --class-path dist --scan-class-path
 
 # Ces tests ont été effectué par Mary M.
-![image](https://user-images.githubusercontent.com/54963309/121418885-f7aa6d80-c945-11eb-8839-f07d8ada766d.png)
+![image](https://user-images.githubusercontent.com/54963309/121441935-3bf93600-c965-11eb-8976-5236d90005df.png)
 
 # Ces tests ont été effectué par Mahdi C.
