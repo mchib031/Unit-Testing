@@ -19,8 +19,6 @@ public  class FizzBuzzTest {
 	}
   	@Test
 	public void test_2passed(){
-		String actual= fizzBuzz(1);
-		String expected= "1";
-	assertEquals(actual, expected);
+	assertEquals("1", fizzBuzz(1));
 	}
 }
