@@ -17,5 +17,8 @@ public  class FizzBuzzTest {
 	public void test_1passed(){
 	assertEquals("FizzBuzz", fizzBuzz(0));
 	}
-  
+  	@Test
+	public void test_2failed(){
+	assertEquals("FizzBuzz", fizzBuzz(1));
+	}
 }
