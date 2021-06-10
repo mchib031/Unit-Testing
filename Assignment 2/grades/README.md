@@ -27,3 +27,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 | Professor  | Andrew Forward, aforward@uottawa.ca  |
 | Student 1  | Mahdi Chiboub #300094626 |
 | Student 2  | Mary Mousa #300110697  |
+
+ ## Voir Seg assign2.pdf pour le rapport 
