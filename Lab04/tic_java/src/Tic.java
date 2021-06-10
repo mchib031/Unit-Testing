@@ -2,9 +2,9 @@ public class Tic {
 
     private int rows = 3;
     private int columns = 3;
+    private String board ="";
 
     public Tic() {
-
     }
 
     public Tic(int r, int c) {
@@ -19,6 +19,9 @@ public class Tic {
     }
 
     public String to_String() {
-        return null;
+        for (int i= 0; i < rows; i++) {
+            board = board + "_\n";
+        }
+        return board;
     }
 }
