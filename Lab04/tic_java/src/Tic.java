@@ -3,6 +3,7 @@ public class Tic {
     private int rows = 3;
     private int columns = 3;
     private String board ="";
+    private String positions= "";
 
     public Tic() {
     }
@@ -10,6 +11,7 @@ public class Tic {
     public Tic(int r, int c) {
         this.rows = r;
         this.columns = c;
+        this.positions="";
     }
 
 
@@ -41,6 +43,14 @@ public class Tic {
 
 
     public String showPositions() {
-        return null;
+        int occ = 0;
+        positions = board;
+        for (int i=0; i < positions.length(); i++){
+            if (positions.charAt(i) == '_'){
+                positions = positions.substring(0,i) + String.valueOf(occ) + positions.substring(i+1);
+                occ++;
+            }
+        }
+        return positions;
     }
 }
