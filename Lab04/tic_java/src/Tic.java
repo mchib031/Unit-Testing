@@ -6,12 +6,15 @@ public class Tic {
     private String positions= "";
 
     public Tic() {
+        this.board= this.to_String();
+        this.positions= this.showPositions();
     }
 
     public Tic(int r, int c) {
         this.rows = r;
         this.columns = c;
-        this.positions="";
+        this.board= this.to_String();
+        this.positions= this.showPositions();
     }
 
 
