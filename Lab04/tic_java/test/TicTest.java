@@ -56,4 +56,10 @@ public class TicTest {
         Tic ticGame = new Tic(1,1);
         Assert.assertEquals("0",ticGame.showPositions());
     }
+
+    @Test
+    public void TicTestShowPositionsAny(){
+        Tic ticGame = new Tic(6,5);
+        Assert.assertEquals("0|1|2|3|4\n5|6|7|8|9\n10|11|12|13|14\n15|16|17|18|19\n20|21|22|23|24\n25|26|27|28|29",ticGame.showPositions());
+    }
 }
