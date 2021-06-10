@@ -25,4 +25,10 @@ public class TicTest {
         Tic ticGame = new Tic(5,1);
         Assert.assertEquals("_\n_\n_\n_\n_\n",ticGame.to_String());
     }
+
+    @Test
+    public void TicTestToStringRow1(){
+        Tic ticGame = new Tic(1,5);
+        Assert.assertEquals("_|_|_|_|_",ticGame.to_String());
+    }
 }
