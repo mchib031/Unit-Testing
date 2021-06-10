@@ -19,7 +19,10 @@ public class Tic {
     }
 
     public String to_String() {
-        for (int i= 0; i < rows-1; i++) {
+        if (rows == 1 && columns == 1){
+            return "_";
+        }
+        for (int i= 0; i < rows; i++) {
             for (int j= 0; j < columns; j++) {
                 if (j==columns-1){
                     board = board + "_";
@@ -27,6 +30,9 @@ public class Tic {
                 else {
                     board = board + "_|";
                 }
+            }
+            if (i==rows-1){
+                return board;
             }
             board = board + "\n";
         }

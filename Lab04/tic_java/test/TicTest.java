@@ -23,7 +23,7 @@ public class TicTest {
     @Test
     public void TicTestToStringColumn1(){
         Tic ticGame = new Tic(5,1);
-        Assert.assertEquals("_\n_\n_\n_\n_\n",ticGame.to_String());
+        Assert.assertEquals("_\n_\n_\n_\n_",ticGame.to_String());
     }
 
     @Test
