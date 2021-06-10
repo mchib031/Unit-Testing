@@ -38,4 +38,10 @@ public class TicTest {
         String expected= "_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_";
         Assert.assertEquals(expected,ticGame.to_String());
     }
+
+    @Test
+    public void TicTestToStringDefault(){
+        Tic ticGame = new Tic();
+        Assert.assertEquals("_|_|_\n_|_|_\n_|_|_",ticGame.to_String());
+    }
 }
