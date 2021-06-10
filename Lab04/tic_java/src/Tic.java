@@ -17,4 +17,8 @@ public class Tic {
     public int size() {
         return rows * columns;
     }
+
+    public String to_String() {
+        return null;
+    }
 }
