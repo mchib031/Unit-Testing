@@ -31,4 +31,11 @@ public class TicTest {
         Tic ticGame = new Tic(1,5);
         Assert.assertEquals("_|_|_|_|_",ticGame.to_String());
     }
+
+    @Test
+    public void TicTestToStringColumnsRowAny(){
+        Tic ticGame = new Tic(6,5);
+        String expected= "_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_\n_|_|_|_|_";
+        Assert.assertEquals(expected,ticGame.to_String());
+    }
 }
