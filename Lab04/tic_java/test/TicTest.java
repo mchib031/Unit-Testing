@@ -17,7 +17,7 @@ public class TicTest {
     @Test
     public void TicTestToString1(){
         Tic ticGame = new Tic(1,1);
-        Assert.assertEquals("_\n",ticGame.to_String());
+        Assert.assertEquals("_",ticGame.to_String());
     }
 
     @Test
