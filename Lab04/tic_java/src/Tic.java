@@ -24,6 +24,7 @@ public class Tic {
     }
 
     public String to_String() {
+        board ="";
         if (rows == 1 && columns == 1){
             return "_";
         }
@@ -46,6 +47,7 @@ public class Tic {
 
 
     public String showPositions() {
+        positions = "";
         int occ = 0;
         positions = board;
         for (int i=0; i < positions.length(); i++){
