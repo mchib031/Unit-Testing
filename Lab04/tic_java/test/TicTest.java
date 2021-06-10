@@ -44,4 +44,10 @@ public class TicTest {
         Tic ticGame = new Tic();
         Assert.assertEquals("_|_|_\n_|_|_\n_|_|_",ticGame.to_String());
     }
+
+    @Test
+    public void TicTestShowPositions(){
+        Tic ticGame = new Tic();
+        Assert.assertEquals("0|1|2\n3|4|5\n6|7|8",ticGame.showPositions());
+    }
 }

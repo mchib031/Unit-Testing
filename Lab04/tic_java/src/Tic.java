@@ -38,4 +38,9 @@ public class Tic {
         }
         return board;
     }
+
+
+    public String showPositions() {
+        return null;
+    }
 }
