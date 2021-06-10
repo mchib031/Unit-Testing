@@ -29,3 +29,5 @@ Ready to run in production? Please [check our deployment guides](https://hexdocs
 | Student 2  | Mary Mousa #300110697  |
 
  ## Voir Seg assign2.pdf pour le rapport 
+
+https://github.com/mchib031/seg3503_300094626_300110697/blob/master/Assignment%202/grades/Seg%20assign2.pdf
