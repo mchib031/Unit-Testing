@@ -10,8 +10,7 @@ public  class FizzBuzzTest {
 			return "Fizz";
 		} else if (num % 5 == 0){
 			return "Buzz";
-		}
-		return String.valueOf(num);
+		}return String.valueOf(num);
 	}
 	@Test
 	public void test_1passed(){
@@ -35,4 +34,5 @@ public  class FizzBuzzTest {
 	public void test_5passed(){
 	assertEquals( "Buzz", fizzBuzz(10));
 	}
+
 }
