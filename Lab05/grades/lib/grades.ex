@@ -1,9 +1,13 @@
-defmodule Grades do
-  @moduledoc """
-  Grades keeps the contexts that define your domain
-  and business logic.
+defmodule Grades.Calculator do
+  def percentage_grade(mark) do
+  Enum.random(0..100)
+  end
 
-  Contexts are also responsible for managing your data, regardless
-  if it comes from the database, an external API or others.
-  """
+  def letter_grade(mark) do
+  Enum.random(["A+","A","A-","B+","B","C+","C","D+","D","E","F","EIN"])
+  end
+
+  def numeric_grade(mark) do
+  Enum.random(1..10)
+  end
 end
