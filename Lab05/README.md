@@ -22,7 +22,9 @@ Ensuite, pour faire fonctionner le code comme prévu, on a ajouté le code de no
 
 ![Screen Shot 2021-06-29 at 2 56 28 PM](https://user-images.githubusercontent.com/54963309/123852637-89285200-d8ea-11eb-8683-b8410eea3fec.jpg)
 
-# En effet, nous pouvons expliquer l'erreur de l'arithmétique qui est à cause que les nombres sont des chaînes plutôt que des entiers, ce qui cause cette erreur lorsqu'ils sont transmis aux méthodes de Grades.Calculator. Car la méthode de Grades.Calculator prend des entiers pour calculer le note finale.
+
+
+En effet, nous pouvons expliquer l'erreur de l'arithmétique qui est à cause que les nombres sont des chaînes plutôt que des entiers, ce qui cause cette erreur lorsqu'ils sont transmis aux méthodes de Grades.Calculator. Car la méthode de Grades.Calculator prend des entiers pour calculer le note finale.
 
 
 
