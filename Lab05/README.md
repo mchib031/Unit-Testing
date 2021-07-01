@@ -34,4 +34,4 @@ En effet, nous pouvons expliquer l'erreur de l'arithmétique qui est à cause qu
 ![image](https://user-images.githubusercontent.com/54963309/124068754-13ff6e80-da09-11eb-9225-a06040e8fad9.png)
 
 Après l'implémentation des quatres tests:
-![image](https://user-images.githubusercontent.com/54963309/124074389-6d6b9b80-da11-11eb-98cc-486a8db0145e.png)
+![image](https://user-images.githubusercontent.com/54963309/124076540-65f9c180-da14-11eb-9a57-2e4de207984d.png)
