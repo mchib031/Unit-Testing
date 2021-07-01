@@ -31,3 +31,4 @@ En effet, nous pouvons expliquer l'erreur de l'arithmétique qui est à cause qu
 
 
 # Partie 2
+![image](https://user-images.githubusercontent.com/54963309/124068754-13ff6e80-da09-11eb-9225-a06040e8fad9.png)
