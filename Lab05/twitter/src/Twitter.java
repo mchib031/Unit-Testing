@@ -16,9 +16,20 @@ public class Twitter {
     }
   }
 
-  public boolean isMentionned(String name) {
+// modifier la methode isMentionned pour faire fonctionner les 4 tests
+   public boolean isMentionned(String name) {
     String tweet = loadTweet();
-    return tweet.contains("@" + name);
+    if (tweet==null){
+      return false;
+    }
+    int tweet_1 = tweet.indexOf("@"); 
+    // indexOf() renvoie la position de la première occurrence du ou des caractères spécifiés dans une chaîne.
+    int tweet_2 = tweet.indexOf(" ",tweet_1);
+    if (tweet_2 == -1){
+      tweet = tweet.substring(tweet_1); 
+      //renvoie une nouvelle chaîne qui est une sous-chaîne de cette chaîne.
+    }else{tweet = tweet.substring(tweet_1,tweet_2);
+    }return tweet.equals("@" + name); 
   }
-
 }
+
