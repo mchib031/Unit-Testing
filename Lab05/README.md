@@ -35,3 +35,7 @@ En effet, nous pouvons expliquer l'erreur de l'arithmétique qui est à cause qu
 
 Après l'implémentation des quatres tests:
 ![image](https://user-images.githubusercontent.com/54963309/124076540-65f9c180-da14-11eb-9a57-2e4de207984d.png)
+
+Après la modification de la méthode isMentionned:
+![Screen Shot 2021-07-01 at 2 19 52 AM](https://user-images.githubusercontent.com/54963309/124078850-5da28600-da16-11eb-8c21-831431ac5cf2.jpg)
+
