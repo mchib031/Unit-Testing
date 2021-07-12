@@ -26,6 +26,7 @@
 ![image](https://user-images.githubusercontent.com/54963309/125313829-9e967680-e303-11eb-8702-ecdc4de8ad3e.png)
 
 ### mvn test
+#### Pour faire run les tests, il faut ouvrir un second terminal afin d'exécuter les tests en même temps que le localhost est lancée.
 ![image](https://user-images.githubusercontent.com/54963309/125313041-da7d0c00-e302-11eb-939f-07b433fc53cf.png)
 
 ![image](https://user-images.githubusercontent.com/54963309/125313100-e8cb2800-e302-11eb-80b0-b1842208ee51.png)
