@@ -30,3 +30,5 @@
 
 ![image](https://user-images.githubusercontent.com/54963309/125313100-e8cb2800-e302-11eb-80b0-b1842208ee51.png)
 
+### Après l'ajout d'un test qui vérifie le login avec username et password du admin, les quatres tests ont passées
+![image](https://user-images.githubusercontent.com/54963309/125323849-43698180-e30d-11eb-9e9b-cc21076d3aaf.png)
