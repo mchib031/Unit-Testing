@@ -25,12 +25,11 @@
 
 Pour résoudre cette erreur, il faut remplacer ( s == "" ) par equals. Comme vous pouvez voir l'erreur est alors résolu.
 
-
 ### 2- Certain swing methods needs to be invoked in Swing thread
-J'ai pas résolu cette erreur. Swing method isVisible() is not thread-safe in Java, so it might cause deadlock or some threading issues.
-
+Expliquation: J'ai pas résolu cette erreur. La méthode Swing isVisible () n'est pas thread-safe en Java, elle peut donc provoquer des blocages ou des problèmes de threading.
 
 ### 3- Could be refactored into a named static inner class
+Expliquation/Solution: Dans la classe CalCFrame, création d'une nouvelle classe interne WindowAdapter.WindowClosing(WindowEvent e), en passant un WindowEvent comme argument, au lieu d'utiliser un nouveau WindowAdapter.
 
 ### 4- Boxing/unboxing to parse a primitive
 Erreur:
@@ -47,7 +46,8 @@ num3 = Double.parseDouble(input);
 ### 5- Boxing/unboxing to parse a primitive
 Erreur:
 answer = Double.valueOf(s).doubleValue();
-Solution:
+Solution: 
+answer = Double.parseDouble(s);
 
 ### 6 à 11 - Unread field: should this field be static?
 Erreur:
@@ -80,3 +80,9 @@ Erreur:
 else if (morenums)
 Solution:
 else --- Faut enlever le if à l'intérieur du else.
+
+## Résultat final:
+Tous les bugs ont été résolu sauf les deux qui ont été expliqués dans ce readme.
+
+![Screen Shot 2021-07-21 at 12 49 55 PM](https://user-images.githubusercontent.com/54963309/126528120-082503d4-9e5e-45e7-99b0-f55aa45634fa.jpg)
+
