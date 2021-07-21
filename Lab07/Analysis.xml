@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.3.0" sequence="0" timestamp="1626886148701" analysisTimestamp="1626886173672" release="">
+  <Project projectName="calculator">
+    <Jar>/Users/mary/Dropbox/Mac/Documents/seg3503_300094626_300110697/Lab07/calculator/dist</Jar>
+    <SrcDir>/Users/mary/Dropbox/Mac/Documents/seg3503_300094626_300110697/Lab07/calculator/src</SrcDir>
+  </Project>
+  <BugInstance type="SIC_INNER_SHOULD_BE_STATIC_ANON" priority="3" rank="20" abbrev="SIC" category="PERFORMANCE">
+    <Class classname="CalCFrame$1" role="CLASS_ANONYMOUS">
+      <SourceLine classname="CalCFrame$1" sourcefile="CalCFrame.java" sourcepath="CalCFrame.java"/>
+    </Class>
+    <Class classname="CalCFrame">
+      <SourceLine classname="CalCFrame" sourcefile="CalCFrame.java" sourcepath="CalCFrame.java"/>
+    </Class>
+    <Method classname="CalCFrame" name="&lt;init&gt;" signature="(Ljava/lang/String;)V" isStatic="false">
+      <SourceLine classname="CalCFrame" start="52" end="89" startBytecode="0" endBytecode="635" sourcefile="CalCFrame.java" sourcepath="CalCFrame.java"/>
+    </Method>
+    <SourceLine classname="CalCFrame" start="53" end="53" startBytecode="203" endBytecode="203" sourcefile="CalCFrame.java" sourcepath="CalCFrame.java"/>
+  </BugInstance>
+  <BugInstance type="SW_SWING_METHODS_INVOKED_IN_SWING_THREAD" priority="3" rank="19" abbrev="SW" category="BAD_PRACTICE">
+    <Class classname="Main">
+      <SourceLine classname="Main" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Class>
+    <Method classname="Main" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Main" start="12" end="16" startBytecode="0" endBytecode="61" sourcefile="Main.java" sourcepath="Main.java"/>
+    </Method>
+    <SourceLine classname="Main" start="15" end="15" startBytecode="22" endBytecode="22" sourcefile="Main.java" sourcepath="Main.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 21 Jul 2021 12:49:08 -0400" total_classes="3" referenced_classes="291" total_bugs="2" total_size="243" num_packages="1" java_version="11.0.11" vm_version="11.0.11+9-LTS-194" cpu_seconds="23.63" clock_seconds="51.80" peak_mbytes="283.49" alloc_mbytes="4096.00" gc_seconds="0.07" priority_3="2">
+    <PackageStats package="" total_bugs="2" total_types="3" total_size="243" priority_3="2">
+      <ClassStats class="CalCFrame" sourceFile="CalCFrame.java" interface="false" size="228" bugs="1" priority_3="1"/>
+      <ClassStats class="CalCFrame$1" sourceFile="CalCFrame.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="8" bugs="1" priority_3="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="851" invocations="1555" avgMicrosecondsPerInvocation="547" maxMicrosecondsPerInvocation="44229" standardDeviationMicrosecondsPerInvocation="2265"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="647" invocations="2" avgMicrosecondsPerInvocation="323692" maxMicrosecondsPerInvocation="331420" standardDeviationMicrosecondsPerInvocation="7748"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="444" invocations="291" avgMicrosecondsPerInvocation="1526" maxMicrosecondsPerInvocation="42938" standardDeviationMicrosecondsPerInvocation="3792"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="346" invocations="291" avgMicrosecondsPerInvocation="1189" maxMicrosecondsPerInvocation="27640" standardDeviationMicrosecondsPerInvocation="2637"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="337" invocations="641" avgMicrosecondsPerInvocation="525" maxMicrosecondsPerInvocation="26417" standardDeviationMicrosecondsPerInvocation="1877"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="204" invocations="362" avgMicrosecondsPerInvocation="564" maxMicrosecondsPerInvocation="15244" standardDeviationMicrosecondsPerInvocation="1604"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="199" invocations="1560" avgMicrosecondsPerInvocation="128" maxMicrosecondsPerInvocation="5188" standardDeviationMicrosecondsPerInvocation="323"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="127" invocations="1507" avgMicrosecondsPerInvocation="84" maxMicrosecondsPerInvocation="9328" standardDeviationMicrosecondsPerInvocation="385"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="113" invocations="291" avgMicrosecondsPerInvocation="390" maxMicrosecondsPerInvocation="6814" standardDeviationMicrosecondsPerInvocation="896"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="93" invocations="291" avgMicrosecondsPerInvocation="322" maxMicrosecondsPerInvocation="8586" standardDeviationMicrosecondsPerInvocation="943"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="92" invocations="291" avgMicrosecondsPerInvocation="316" maxMicrosecondsPerInvocation="10264" standardDeviationMicrosecondsPerInvocation="809"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
